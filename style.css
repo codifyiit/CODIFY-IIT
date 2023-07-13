@@ -10,12 +10,15 @@ body{
     width: 100%;
     background-position: center;
     background-size: cover; 
-    position: absolute; 
+    position: absolute;
     background: linear-gradient(180deg, #3E5965 0%, rgba(62, 89, 101, 0.00) 100%);
+}
+.header-content{
+    display: flex;
+    margin-top: 20px;
 }
 /* NAVIGATION BAR STYLING */
 nav{
-    outline-style: dashed;
     display: flex;
     padding: 0% 3%;
     align-items: center;
@@ -23,6 +26,7 @@ nav{
 }
 .logo-header{
     display: inline-flex;
+    margin-left: 90px;
 }
 .logo-header h1{
     margin-top: 28px;
@@ -43,6 +47,14 @@ nav{
     padding: 8px 12px;
     position: relative;
 }
+#current-home::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #56cbf9;
+    display: block;
+    margin: auto;
+}
 .nav-links ul li a{
     text-decoration: none;
     color: #FFF;
@@ -51,7 +63,7 @@ nav{
     line-height: normal;
     display: inline-block;
 }
-.nav-links ul li::after{
+/* .nav-links ul li::after{
     content: '';
     width: 0%;
     height: 2px;
@@ -59,12 +71,11 @@ nav{
     display: block;
     margin: auto;
     transition: 0.5s;
-}
+} 
 .nav-links ul li:hover::after{
     width: 100%;
-}
+} */
 nav img{
-    outline-style: dashed;
     margin-top: 20px;
     width: 48px;
     height: 48px;
@@ -72,12 +83,10 @@ nav img{
 
 /* Home Page Texts */
 .header-box{
-    outline-style: dashed;
     width: 600px;
     margin-left: 128px;
 }
 #header-h1{
-    outline-style: dashed;
     color: #FFF;
     width: 600px;
     font-size: 48px;
@@ -88,20 +97,21 @@ nav img{
 }
 #header-p{
     color: #FFF;
-    outline-style: dashed;
     width: 500px;
+    font-size: 18px;
 }
 #header-button{
-    outline-style: dashed;
     background-color: #9AD4D6;
-    width: 80px;
+    width: 100px;
     height: 30px;
     margin-top: 12px;
+    border-style: none;
 }
 #header-button a{
     text-decoration: none;
     color: #101935;
     font-weight: 700;
+    font-size: 18px;
 }
 
 /*  Slideshow in Home Page  */
@@ -110,12 +120,11 @@ nav img{
     box-shadow: 20px 20px;
     width: 350px;
     height: 350px;
-    margin-top: -310px;
-    margin-left: 800px;
+    margin-left: 62px;
 }
 .box h1{
     color: #FFF;
     text-align: center;
     font-size: 18px;
-    padding-top: 8px;
+    margin-top: 8px;
 }
