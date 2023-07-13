@@ -15,6 +15,7 @@ body{
 }
 /* NAVIGATION BAR STYLING */
 nav{
+    outline-style: dashed;
     display: flex;
     padding: 0% 3%;
     align-items: center;
@@ -70,14 +71,17 @@ nav img{
 }
 
 /* Home Page Texts */
+.header-box{
+    outline-style: dashed;
+    width: 600px;
+    margin-left: 128px;
+}
 #header-h1{
     outline-style: dashed;
     color: #FFF;
     width: 600px;
     font-size: 48px;
     font-weight: 800;
-    margin-left: 128px;
-    margin-left: 128px;
 }
 #header-h1 b{
     color: #9AD4D6;
@@ -85,17 +89,33 @@ nav img{
 #header-p{
     color: #FFF;
     outline-style: dashed;
-    width: 704px;
-    margin-left: 128px;
+    width: 500px;
 }
 #header-button{
     outline-style: dashed;
-    margin-left: 128px;
+    background-color: #9AD4D6;
+    width: 80px;
+    height: 30px;
+    margin-top: 12px;
+}
+#header-button a{
+    text-decoration: none;
+    color: #101935;
+    font-weight: 700;
 }
 
 /*  Slideshow in Home Page  */
 .box{
     background-color: #101935;
+    box-shadow: 20px 20px;
     width: 350px;
     height: 350px;
+    margin-top: -310px;
+    margin-left: 800px;
+}
+.box h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 8px;
 }
