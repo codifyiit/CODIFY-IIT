@@ -1,6 +1,7 @@
 body{
     background-color: #f2fdff;
     font-family: 'Inter', sans-serif;
+    margin: 0;
 }
 
 .header{
@@ -10,7 +11,7 @@ body{
     width: 100%;
     background-position: center;
     background-size: cover; 
-    position: absolute;
+    position: relative;
     background: linear-gradient(180deg, #3E5965 0%, rgba(62, 89, 101, 0.00) 100%);
 }
 .header-content{
