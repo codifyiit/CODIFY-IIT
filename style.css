@@ -149,11 +149,7 @@ footer {
     bottom: 0;
     width: 100%;
         }
-.footer-background {
-    background: url('footerbackground.png') no-repeat center center;
-    background-size: cover;
-    padding: 20px;
-        }
+
 .icons {
   display: flex;
   justify-content: flex-start;
