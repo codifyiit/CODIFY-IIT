@@ -130,3 +130,47 @@ nav img{
     font-size: 18px;
     margin-top: 8px;
 }
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('footerbackground.png') no-repeat center center fixed;
+    background-size: cover;
+        }
+footer {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+        }
+.footer-background {
+    background: url('footerbackground.png') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+        }
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+        }
+.icons a {
+  display: inline-block;
+  margin: 0 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+        }
+.icons a:hover {
+ color: #ffd700;
+        }
+ .icons img {
+ width: 10%;
+height: 25%;
+  margin: 0 8%;
+        }
