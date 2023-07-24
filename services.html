@@ -7,6 +7,9 @@
     <title>SHAPE-IIT</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        .header{
+            background: linear-gradient(180deg, #3E5965 0%, rgba(255, 255, 255, 0.00) 100%);
+        }
         #service-title{
             color: #101935;
             text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -25,9 +28,10 @@
             border-radius: 33px;
             margin-left: 25px;
             background-color: #FFF;
+            box-shadow: 0px 4px 4px 0px rgba;
             width: 330px;
             height: 350px;
-
+            transform: translateY(-10%);
         }
         .service-options h1{
             margin-top: 0px;
@@ -36,6 +40,11 @@
             font-size: 20px;
         }
         .service-options p{
+            width: 280px;
+            flex-shrink: 0;
+            padding-left: 10px;
+            padding-right: 10px; 
+            margin: 0 auto;
             text-align: center;
             font-weight: 500;
             letter-spacing: 1.28px;
@@ -49,9 +58,39 @@
             border-radius: 20px;
             transform: translateY(-25%);
         }
+        .icon-bg img{
+            width: 80px;
+            height: 80px;
+            padding-top: 9%;
+            padding-left: 10%;
+            display: block;
+        }
+        #web-dev-img{
+            padding-top: 17%;
+            height: 65px;
+        }
+        #app-dev-img{
+            width: 50px;
+            padding-left: 24%;
+        }
         .contact-button{
-            margin-top: 25%;
-            margin: 0 auto;
+            display: inline-block;
+            background-color: #9ad4d6;
+            border-style: none;
+            border-radius: 10px;
+            padding: 25px 80px;
+            cursor: pointer;
+            color: #101935;
+            text-decoration: underline;
+            letter-spacing: 1.5px;
+            font-size: 24px;
+            font-weight: 700;
+            font-style: normal;
+        }
+        .service-button{
+            margin-top: 3%;
+            margin-left: 39%;
+            margin-bottom: 10%;
         }
     </style>
 </head>
@@ -76,15 +115,18 @@
         <h1 id="service-title">Our Services</h1>
         <div class="three-section">
             <div class="service-options">
-                <div class="icon-bg"></div>
+                <div class="icon-bg">
+                    <img id="web-dev-img" src="assets/images/service-icon1.png">
+                </div>
                 <h1>Web Development</h1>
                 <p>SHAPE excels in user-friendly web development, prioritizing client objectives and using cutting-edge technologies. 
-                We focus on responsive design, performance optimization, and continuous maintenance ensures
-                 high-performing websites that leave a lasting impression. 
-                 Students gain valuable experience in design, coding, and project management through these services.</p>
+                    We focus on responsive design, performance optimization, and continuous maintenance ensures high-performing websites that leave a lasting impression. 
+                    Students gain valuable experience in design, coding, and project management through these services.</p>
             </div>
             <div class="service-options">
-                <div class="icon-bg"></div>
+                <div class="icon-bg">
+                    <img id="app-dev-img" src="assets/images/service-icon2.png">
+                </div>
                 <h1>App Development</h1>
                 <p>SHAPE crafts innovative mobile applications, providing end-to-end services from concept to deployment. 
                 We tailor apps to meet client objectives, using cutting-edge technologies for seamless multi-platform functionality. 
@@ -92,18 +134,19 @@
                 offering students practical experience in mobile app development and programming languages.</p>
             </div>
             <div class="service-options">
-                <div class="icon-bg"></div>
+                <div class="icon-bg">
+                    <img src="assets/images/service-icon3.png">
+                </div>
                 <h1>Tech Consulting</h1>
                 <p>SHAPE offers technical consulting to non-profits, businesses, and student organizations, providing expertise in project assessment,
                  planning, technology selection, system architecture, code reviews, troubleshooting, performance optimization, 
                  security implementation, and client training for continuous improvement and student skill development.</p>
             </div>
         </div>
-        <button class="contact-button">
-            <a href="">Contact Us</a>
-        </button>
     </section>
-
+    <div class="service-button">
+        <a class = "contact-button"href="">Contact Us</a>
+    </div>
     <footer>
         <div class="footer-container">
             <div class="footer-icons">

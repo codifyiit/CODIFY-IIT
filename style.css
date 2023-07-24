@@ -14,8 +14,6 @@ body {
     left: 0px;
     min-height: 100vh;
     width: 100%;
-    background-position: center;
-    background-size: cover;
     position: relative;
     background: linear-gradient(180deg, #3E5965 0%, rgba(62, 89, 101, 0.00) 100%);
 }
