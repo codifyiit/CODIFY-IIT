@@ -6,6 +6,309 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHAPE-IIT</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        @keyframes typing {
+
+            0.0000%,
+            20.0763% {
+                content: "";
+            }
+
+            1.4608%,
+            18.2561% {
+                content: "W";
+            }
+
+            2.3131%,
+            17.5402% {
+                content: "We";
+            }
+
+            3.0961%,
+            16.8243% {
+                content: "Web";
+            }
+
+            3.8792%,
+            16.1084% {
+                content: "Web ";
+            }
+
+            4.6623%,
+            15.3925% {
+                content: "Web D";
+            }
+
+            5.4454%,
+            14.6766% {
+                content: "Web De";
+            }
+
+            6.2284%,
+            13.9607% {
+                content: "Web Des";
+            }
+
+            7.0115%,
+            13.2448% {
+                content: "Web Desi";
+            }
+
+            7.7946%,
+            12.5289% {
+                content: "Web Desig";
+            }
+
+            8.5777%,
+            11.813% {
+                content: "Web Design";
+            }
+
+            22.0028%,
+            41.2207% {
+                content: "";
+            }
+
+            22.7859%,
+            39.6374% {
+                content: "A";
+            }
+
+            23.569%,
+            38.9215% {
+                content: "Ap";
+            }
+
+            24.352%,
+            38.2056% {
+                content: "App";
+            }
+
+            25.1351%,
+            37.4897% {
+                content: "App ";
+            }
+
+            25.9182%,
+            36.7738% {
+                content: "App D";
+            }
+
+            26.7013%,
+            36.0579% {
+                content: "App De";
+            }
+
+            27.4843%,
+            35.342% {
+                content: "App Des";
+            }
+
+            28.2674%,
+            34.6261% {
+                content: "App Desi";
+            }
+
+            29.0505%,
+            33.9102% {
+                content: "App Desig";
+            }
+
+            29.8336%,
+            33.1943% {
+                content: "App Design";
+            }
+
+            43.2166%,
+            65.8638% {
+                content: "";
+            }
+
+            43.9997%,
+            63.8952% {
+                content: "V";
+            }
+
+            44.7828%,
+            63.1793% {
+                content: "Vo";
+            }
+
+            45.5658%,
+            62.4634% {
+                content: "Vol";
+            }
+
+            46.3489%,
+            61.7475% {
+                content: "Volu";
+            }
+
+            47.132%,
+            61.0316% {
+                content: "Volun";
+            }
+
+            47.9151%,
+            60.3157% {
+                content: "Volunt";
+            }
+
+            48.6981%,
+            59.5998% {
+                content: "Volunte";
+            }
+
+            49.4812%,
+            58.8839% {
+                content: "Voluntee";
+            }
+
+            50.2643%,
+            58.168% {
+                content: "Volunteer";
+            }
+
+            51.0474%,
+            57.4521% {
+                content: "Volunteeri";
+            }
+
+            51.8304%,
+            56.7362% {
+                content: "Volunteerin";
+            }
+
+            52.6135%,
+            56.0203% {
+                content: "Volunteering";
+            }
+
+            68.0137%,
+            100% {
+                content: "";
+            }
+
+            68.7968%,
+            98.3573% {
+                content: "P";
+            }
+
+            69.5799%,
+            97.6414% {
+                content: "Pr";
+            }
+
+            70.363%,
+            96.9255% {
+                content: "Pro";
+            }
+
+            71.146%,
+            96.2096% {
+                content: "Proj";
+            }
+
+            71.9291%,
+            95.4937% {
+                content: "Proje";
+            }
+
+            72.7122%,
+            94.7778% {
+                content: "Projec";
+            }
+
+            73.4953%,
+            94.0619% {
+                content: "Project";
+            }
+
+            74.2783%,
+            93.346% {
+                content: "Project ";
+            }
+
+            75.0614%,
+            92.6301% {
+                content: "Project M";
+            }
+
+            75.8445%,
+            91.9142% {
+                content: "Project Ma";
+            }
+
+            76.6276%,
+            91.1983% {
+                content: "Project Man";
+            }
+
+            77.4106%,
+            90.4824% {
+                content: "Project Mana";
+            }
+
+            78.1937%,
+            89.7665% {
+                content: "Project Manag";
+            }
+
+            78.9768%,
+            89.0506% {
+                content: "Project Manage";
+            }
+
+            79.7599%,
+            88.3347% {
+                content: "Project Managem";
+            }
+
+            80.543%,
+            87.6188% {
+                content: "Project Manageme";
+            }
+
+            81.326%,
+            86.9029% {
+                content: "Project Managemen";
+            }
+
+            82.1091%,
+            86.187% {
+                content: "Project Management";
+            }
+
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .typewriter {
+            --caret: currentcolor;
+        }
+
+        .typewriter::before {
+            content: "";
+            animation: typing 20.0s infinite;
+        }
+
+        .typewriter::after {
+            content: "";
+            border-right: 1px solid var(--caret);
+            animation: blink 0.5s linear infinite;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,7 +330,10 @@
         </nav>
         <div class="header-content">
             <div class="header-box">
-                <h1 id="header-h1">Connecting students to experiences and projects in <<b>Web Design</b>></h1>
+                <h1 id="header-h1">
+                    Connecting students to experiences and projects in
+                    &lt<b><span class="typewriter"></span></b>&gt
+                </h1>
                 <p id="header-p">SHAPE at IIT helps students engage in hands-on learning and build real-world experience
                     to bridge the gap between academics and the tech industry</p>
                 <button id="header-button"><a href="">Join Us</a></button>
