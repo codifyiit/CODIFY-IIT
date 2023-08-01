@@ -5,17 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Executive Page</title>
   <link rel="shortcut icon" href= "assets/images/Logo.png">
+  <link rel="stylesheet" href="style.css">
   <style>
     * {
       box-sizing: border-box;
     }
-
     body {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
     }
-
+    .header{
+      background-image: url(assets/images/exec-bg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 60vh;
+    }
     .image-container {
       text-align: center;
       margin: 5%;
@@ -93,10 +98,26 @@
 </head>
 
 <body>
-
+  <section class="header">
+    <nav>
+        <div class="logo-header">
+            <a href="index.html"><img src="assets/images/Logo.png"></a>
+            <h1><b>SHAPE-IIT</b></h1>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current-page"><a href="executive.html">Executives</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
   <!-- RIKI SECTION -->
   <div class="presidentP">
-    <img src="riki.png" alt="Riki Osako" >
+    <img src="assets/images/riki.png" alt="Riki Osako" >
   </div>
 
   <div class="contentP">
@@ -128,7 +149,7 @@
     <h2 class="gridName">TBD</h2>
     <br>
     <br>
-    <img src="squarePFP2.png" alt="TBD">
+    <img src="assets/images/squarePFP2.png" alt="TBD">
     <br>
 
     <!-- Position, Major, Email -->
@@ -141,7 +162,7 @@
     <h2 class="gridName">Viridiana Pozos</h2>
     <br>
     <br>
-    <img src="squarePFP.png" alt="Viridiana Pozos">
+    <img src="assets/images/squarePFP.png" alt="Viridiana Pozos">
     <br>
 
     <!-- Position, Major, Email -->
@@ -155,7 +176,7 @@
     <h2 class="gridName"> Jason Zheng </h2>
     <br>
 	<br>
-    <img src="squarePFP2.png" alt="Jason Zheng">
+    <img src="assets/images/squarePFP2.png" alt="Jason Zheng">
     
     <!-- Position, Major, Email -->
     <br>
@@ -172,7 +193,7 @@
   <div class="image-container">
   
   <h2 class="gridName"> Damian Samano </h2>
-  <img src="damian.png" alt="Damian Samano">
+  <img src="assets/images/damian.png" alt="Damian Samano">
     
     <!-- Position, Major, Email -->
     <br>
@@ -186,7 +207,7 @@
    <h2 class="gridName"> TBD </h2>
 <br>
 <br>
-    <img src="squarePFP2.png" alt="TBD">
+    <img src="assets/images/squarePFP2.png" alt="TBD">
     
     <!-- Position, Major, Email -->
     <br>
@@ -201,7 +222,7 @@
   <div class="image-container">
   
   <h2 class="gridName"> Marlen Melchor </h2>
-  <img src="marlen.png" alt="Marlen Melchor">
+  <img src="assets/images/marlen.png" alt="Marlen Melchor">
   
     <!-- Position, Major, Email -->
     <br>
@@ -216,7 +237,7 @@
   
   <div class="image-container">
   <h2 class="gridName"> Lorena Ramirez </h2>
-  <img src="lorena2.jpg" alt="Lorena Ramirez">
+  <img src="assets/images/lorena.png" alt="Lorena Ramirez">
     
     <!-- Position, Major, Email -->
     <br>
@@ -225,7 +246,33 @@
     <h3 class="gridINFO"> directorcs.shape.iit@gmail.com </h3> 
    
   </div>
-  
+  <footer>
+    <div class="footer-container">
+        <!-- Footer Icon Images -->
+        <div class="footer-icons">
+            <img src="assets/images/instagramicon.png" alt="">
+            <img src="assets/images/facebookicon.png" alt="">
+            <img src="assets/images/discordicon.png" alt="">
+        </div>
+        <!-- Footer Navigation To Our Pages -->
+        <div class="footer-nav">
+            <div class="footer-content">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Executives</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Logo -->
+            <div class="logo-footer">
+                <a href="index.html"><img src="assets/images/Logo.png"></a>
+                <h1><b>SHAPE-IIT</b></h1>
+            </div>
+        </div>
+    </div>
+</footer>
   
   
 </body>
