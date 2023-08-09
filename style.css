@@ -243,19 +243,27 @@ nav img {
 }
 
 /* Footer */
-footer {
+ footer {
+    background-size: cover;
+    outline-style: dashed;
     background-image: url(assets/images/footerbackground.png);
-    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+} 
+
+.spacer{
+    height: 40%;
+}
+.footer-container {
+    outline-style: dashed;
     background-repeat: no-repeat;
     width: 100%;
     height: 300px;
-}
-
-.footer-container {
     display: inline-block;
 }
 
 .footer-container ul li {
+    outline-style: dashed;
     list-style: none;
     display: inline-block;
     padding: 8px 15px;
@@ -263,33 +271,39 @@ footer {
 }
 
 .footer-content ul li a {
+    outline-style: dashed;
     text-decoration: none;
     color: #FFF;
 }
 
 .footer-icons {
-    padding-top: 170px;
+    outline-style: dashed;
+    padding-top: 30px;
     margin-left: 50px;
     display: inline-block;
 }
 
 .footer-icons img {
+    outline-style: dashed;
     width: 40px;
     height: 40px;
     padding-right: 20px;
 }
 
 .footer-nav {
+    outline-style: dashed;
     display: flex;
 }
 
 .logo-footer {
+    outline-style: dashed;
     align-content: right;
     display: inline-flex;
-    margin-left: 500px;
+    padding-left: 30%;
 }
 
 .logo-footer h1 {
+    outline-style: dashed;
     color: #FFF;
     letter-spacing: 1px;
     font-size: 20px;
@@ -297,5 +311,8 @@ footer {
 }
 
 .logo-footer img {
+    outline-style: dashed;
     width: 50px;
+
 }
+
