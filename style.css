@@ -22,7 +22,7 @@ h1{
 
 .header-content {
     display: flex;
-    margin-top: 20px;
+    margin-top: 5%;
 }
 
 /* NAVIGATION BAR STYLING */
@@ -35,7 +35,7 @@ nav {
 
 .logo-header {
     display: inline-flex;
-    margin-left: 90px;
+    margin-left: 7%;
 }
 
 .logo-header h1 {
@@ -109,7 +109,7 @@ nav img {
 #header-h1 {
     color: #FFF;
     width: 80%;
-    font-size: 48px;
+    font-size: 310%;
     font-weight: 800;
 }
 
@@ -120,7 +120,7 @@ nav img {
 #header-p {
     color: #FFF;
     width: 70%;
-    font-size: 18px;
+    font-size: 110%;
 }
 
 #header-button {
@@ -143,10 +143,10 @@ nav img {
 .box {
     background-color: #101935;
     box-shadow: 20px 20px;
-    width: 350px;
-    height: 350px;
-    margin-left: 62px;
-    margin-top: 35px;
+    width: 25%;
+    height: 20%;
+    margin-left: 3%;
+    margin-top: 1%;
 }
 
 .box h1 {
