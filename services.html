@@ -11,8 +11,16 @@
         .header{
             background: linear-gradient(180deg, #3E5965 0%, rgba(255, 255, 255, 0.00) 100%);
         }
-        #service-title{
+        @media (max-width: 600px) {
+      .service-options {
+        width: 90%;
+      }
+    }
+        #spacer{
             outline-style: dashed;
+            height: 300px;
+        }
+        #service-title{
             color: #101935;
             text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             font-weight: 700;
@@ -26,26 +34,25 @@
             margin: 0 auto;
             width: 85%;
             margin-top: 20%;
+            
         }
         .service-options{
-            outline-style: dashed;
             border-radius: 33px;
             margin-left: 25px;
             background-color: #FFF;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             width: 100%;
-            height: 330px;
+            height: 100%;
             transform: translateY(-10%);
         }
         .service-options h1{
-            outline-style: dashed;
             margin-top: 0px;
             text-align: center;
             font-weight: 700;
-            font-size: 20px;
+            font-size: 125%;
         }
         .service-options p{
-            width: 280px;
+            width: 80%;
             flex-shrink: 0;
             padding-left: 10px;
             padding-right: 10px; 
@@ -53,7 +60,8 @@
             text-align: center;
             font-weight: 500;
             letter-spacing: 1.28px;
-            font-size: 12px;
+            font-size: 75%;
+            padding-bottom: 3%;
         }
         .icon-bg{
             margin: 0 auto;
@@ -80,22 +88,22 @@
         }
         .contact-button{
             display: inline-block;
+            padding: 25px 80px;
             background-color: #9ad4d6;
             border-style: none;
             border-radius: 10px;
-            padding: 25px 80px;
             cursor: pointer;
             color: #101935;
             text-decoration: underline;
             letter-spacing: 1.5px;
-            font-size: 24px;
+            font-size: 150%;
             font-weight: 700;
             font-style: normal;
         }
         .service-button{
-            margin-top: 15%;
+            /* margin-top: 15%; */
             margin-left: 39%;
-            margin-bottom: 10%;
+            /* margin-bottom: 10%; */
         }
     </style>
 </head>
@@ -148,10 +156,14 @@
                  security implementation, and client training for continuous improvement and student skill development.</p>
             </div>
         </div>
+        <div class="service-button">
+            <a target="_blank" class = "contact-button"href="https://docs.google.com/forms/d/e/1FAIpQLSfr_UKN4mnVJEi2NiB92dG83TfJyfGx0AYQCe0BmLNOW_mvuA/viewform?embedded=true">Contact Us</a>
+        </div>
     </section>
-    <div class="service-button">
+    <!-- <div class="service-button">
         <a target="_blank" class = "contact-button"href="https://docs.google.com/forms/d/e/1FAIpQLSfr_UKN4mnVJEi2NiB92dG83TfJyfGx0AYQCe0BmLNOW_mvuA/viewform?embedded=true">Contact Us</a>
-    </div>
+    </div> -->
+    <div id="spacer"></div>
     <footer>
         <div class="footer-container">
             <div class="spacer"></div>
