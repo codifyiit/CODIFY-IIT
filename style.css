@@ -16,7 +16,8 @@ h1{
 .header {
     top: 0px;
     left: 0px;
-    height: 100%;
+    min-height: 100vh;
+    /* height: 100%; */
     width: 100%;
     position: relative;
     background: linear-gradient(180deg, #3E5965 0%, rgba(62, 89, 101, 0.00) 100%);
