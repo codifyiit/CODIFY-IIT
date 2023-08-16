@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHAPE-IIT</title>
-    <link rel="shortcut icon" href= "assets/images/Logo.png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SHAPE - IIT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 
     <style>
@@ -298,6 +299,8 @@
 
         .typewriter {
             --caret: currentcolor;
+            color: #9AD4D6;
+
         }
 
         .typewriter::before {
@@ -314,100 +317,152 @@
 </head>
 
 <body>
-    <section class="header">
-        <nav>
-            <div class="logo-header">
-                <a href="index.html"><img src="assets/images/Logo.png"></a>
-                <h1><b>SHAPE-IIT</b></h1>
-            </div>
-            <div class="nav-links">
-                <ul>
-                    <li class="current-page"><a href="index.html">Home</a></li>
-                    <li><a href="executive.html">Executives</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="header-content">
-            <div class="header-box">
-                <h1 id="header-h1">
-                    Connecting students to experiences and projects in
-                    &lt<b><span class="typewriter"></span></b>&gt
-                </h1>
-                <p id="header-p">SHAPE at IIT helps students engage in hands-on learning and build real-world experience
-                    to bridge the gap between academics and the tech industry</p>
-                    <br>
-                <button id="header-button">
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeJhzMhqgA5TlpR2YyamqLIIbQZG9cx0OYYr2HqNN4MDI0iXA/viewform?embedded=true">Join Us</a>
-                </button>
-            </div>
-            <div class="box">
-                <h1>News & Events</h1>
-                <img src="">
-            </div>
-        </div>
-    </section>
-    <section class="main">
-        <div class="main-one">
-            <div class="slider-wrapper">
-                <div class="slider">
-                    <img id="slide-1" src="">
-                    <img id="slide-2" src="">
-                    <img id="slide-3" src="">
+    <div class="background"></div>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="assets/images/Logo.png" alt="Logo" class="logo-image">
+                    <span class="logo-text">SHAPE IIT</span>
                 </div>
-                <div class="slider-nav">
-                    <a href="#slide-1"></a>
-                    <a href="#slide-2"></a>
-                    <a href="#slide-3"></a>
-                </div>
+            </a>
+            <div class="nav-links-desktop">
+                <a href="index.html"><span>Home</span></a>
+                <a href="executive.html"><span>Executives</span></a>
+                <a href="projects.html"><span>Projects</span></a>
+                <a href="services.html"><span>Services</span></a>
+                <a href="contact.html"><span>Contact</span></a>
             </div>
-            <div class="mission-text">
-                <h1>Our Mission</h1>
-                <p>Through tech volunteering, consulting, and project management roles
-                    with local organizations, we foster hands-on learning and invaluable
-                    real-world experience, bridging the gap between academics and the
-                    tech industry. Our aim is to meticuously shape our members' skills and
-                    prepare them for thriving careers in the rapdily evolving technology
-                    sector.
-                </p>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
             </div>
-        </div>
-    </section>
-    <div class="background-image">
-    </div>
 
-    <!-- Footer Content -->
-    <footer>
-        <div class="footer-container">
-            <div class="spacer"></div>
-            <!-- Footer Icon Images -->
-            <div class="footer-icons">
-                <a target="_blank" href="https://instagram.com/shape_iit?igshid=MzRlODBiNWFlZA=="><img src="assets/images/instagramicon.png" alt=""></a>
-                <a href=""><img src="assets/images/facebookicon.png" alt=""></a>
-                <a target="_blank" href="https://discord.gg/ED6BsVB9UK"><img src="assets/images/discordicon.png" alt=""></a>
-            </div>
-            <!-- Footer Navigation To Our Pages -->
-            <div class="footer-nav">
-                <div class="footer-content">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="executive.html">Executives</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+
+        </div>
+
+        <div class="nav-links-mobile">
+            <a href="index.html"><span>Home</span></a>
+            <a href="executive.html"><span>Executives</span></a>
+            <a href="projects.html"><span>Projects</span></a>
+            <a href="services.html"><span>Services</span></a>
+            <a href="contact.html"><span>Contact</span></a>
+        </div>
+    </header>
+
+
+    <main class="main-container">
+        <div class="landing-container">
+            <div class="hero-container">
+                <span class="hero-text">Connecting students to experiences and projects in<br>&lt<span
+                        class="typewriter"></span>&gt</span>
+                <span class="hero-description">
+                    SHAPE at IIT helps students engage in hands-on learning and build real-world
+                    experience to bridge the gap between
+                    academics and the tech industry.
+                </span>
+                <div class="button-container">
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSeJhzMhqgA5TlpR2YyamqLIIbQZG9cx0OYYr2HqNN4MDI0iXA/viewform?embedded=true">
+                        <button class="join-us">
+                            <span>Join Us</span>
+                        </button>
+                    </a>
                 </div>
-                <!-- Logo -->
-                <div class="logo-footer">
-                    <a href="index.html"><img src="assets/images/Logo.png"></a>
-                    <h1><b>SHAPE-IIT</b></h1>
+            </div>
+            <div class="news-event-container">
+                <div class="block">
+                    <div class="news-event-title">
+                        <span>News & Events</span>
+                    </div>
+                    <div class="news-event-image-container">
+                        <img src="assets/images/events-placeholder.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
 
+        <div class="section-2-container">
+            <div class="mission-image-container">
+                <div class="block">
+                    <div class="mission-image-image">
+                        <img src="assets/images/mission-placeholder.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="mission-container">
+                <span class="mission-text">Our Mission</span>
+                <span class="mission-description">
+                    Through tech volunteering, consulting, and project management roles with
+                    local organizations, we foster hands-on
+                    learning and invaluable real-world experience, bridging the gap between academics and the tech
+                    industry.
+                    Our aim is to
+                    meticulously shape our members' skills and prepare them for thriving careers in the rapidly evolving
+                    technology sector.
+                </span>
+            </div>
+
+        </div>
+    </main>
+
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.nav-links-mobile')
+        const logo = document.querySelector('.logo')
+        const background = document.querySelector(".background")
+        const main = document.querySelector(".main-container")
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+                ? "fa-solid fa-close"
+                : "fa-solid fa-bars"
+
+            logo.style.display = isOpen ? "none" : "flex"
+
+            main.style.display = isOpen ? "none" : "block"
+
+            dropDownMenu.style.display = isOpen ? "flex" : "none"
+
+            background.style.background = isOpen ? "black" : "linear-gradient(to bottom, #3E5965, #ffffff)"
+
+        }
+
+        window.addEventListener("resize", function () {
+            const width = window.innerWidth;
+
+            if (width > 1200 && dropDownMenu.classList.contains('open')) {
+                const logo = document.querySelector('.logo')
+                const dropDownMenu = document.querySelector('.nav-links-mobile')
+                const background = document.querySelector(".background")
+                const main = document.querySelector(".main-container")
+
+                dropDownMenu.classList.toggle('open')
+                toggleBtnIcon.classList = "fa-solid fa-bars"
+
+                main.style.display = "block"
+                logo.style.display = "flex"
+                dropDownMenu.style.display = "none"
+                background.style.background = "linear-gradient(to bottom, #3E5965, #ffffff)"
+            }
+        });
+
+        window.addEventListener("resize", function () {
+            const width = window.innerWidth;
+            const main = document.querySelector(".main-container")
+
+            if (width < 1500) {
+                main.style.padding = "48px 16px 24px 16px"
+            } else {
+                main.style.padding = "64px 128px 24px 128px"
+            }
+        });
+    </script>
 </body>
+
 
 </html>
