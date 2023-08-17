@@ -20,9 +20,11 @@
 
     .header {
       background-image: url(assets/images/exec-bg.png);
-      background-size: cover;
+      background-size: contain;
       background-repeat: no-repeat;
       height: 100%;
+      min-height: 100%;
+      width: 100%;
       outline-style: dashed;
     }
 
@@ -116,8 +118,8 @@
 
     /* Header Text */
     .header-text {
-      outline-style: dashed;
       line-height: 0;
+      position: relative;
       margin-left: 20%;
       transform: translateY(30%);
     }
@@ -127,7 +129,7 @@
     }
 
     #who {
-      line-height: 0.9;
+      line-height: 90%;
       color: #FFF;
     }
 
