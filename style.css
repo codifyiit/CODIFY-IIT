@@ -9,7 +9,6 @@ body {
     background-color: #f2fdff;
     font-family: 'Inter', sans-serif;
     margin: 0;
-    overflow-x: hidden;
 }
 h1{
     color: #101935;
@@ -222,7 +221,6 @@ nav img {
     background-image: url(assets/images/footerbackground.png);
     background-repeat: no-repeat;
     width: 100%;
-    position: absolute;
 }
 @media(max-width: 600px) {
     footer{
