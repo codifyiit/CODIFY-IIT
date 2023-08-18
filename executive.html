@@ -15,12 +15,7 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-    .header{
-      background-image: url(assets/images/exec-bg.png);
-      background-size: contain;
-      background-repeat: no-repeat;
-      min-height: 300px;
-    }
+   
     .image-container {
       text-align: center;
       margin: 5%;
@@ -75,6 +70,14 @@
       height: 20%;
     }
 
+     /* President Section on phone */
+     @media (max-width: 600px) {
+      .presidentP {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
     .contentP {
       float: left;
       width: 50%;
@@ -101,6 +104,35 @@
       font-weight: 560;
       line-height: 1.4;
     }
+
+/* President Section on phone */
+
+@media (max-width: 600px) {
+  .contentP {
+      float: left;
+      width: 90%;
+      padding: 0%;
+    }
+    }
+   
+
+
+ /* President TEXT Section on phone */
+ @media (max-width: 600px) {
+  .ptextcontent {
+      text-align: left;
+      margin: 0%;
+      color: #101935;
+      font-family: "Arial", sans-serif;
+      font-size: 95%;
+      padding-right: 1%;
+      word-spacing: 0.1em;
+      font-weight: 560;
+      line-height: 1.8;
+    }
+
+    }
+  
     /* Fixed Footer Icon Image */
     .footer-icons img {
     width: 55px;
@@ -111,14 +143,15 @@
     .header-text{
       line-height: 1;
       margin-left: 20%;    
-      transform: translateY(40%);  
+      transform: translateY(50%);
     }
+
     .header-text h1{
       font-size: 600%;
     }
     #who{
       line-height: 0.1;
-      color: #9AD4D6;
+      color: #FFF;
     }
 
 
@@ -170,11 +203,13 @@ a:visited {
   </div>
 
   <div class="contentP">
-
-<br>
+    <br>
+    <br>
+    <br>
     <h2 class="pTitle">President</h2>
 <br>
 <br>
+
     <p class="ptextcontent">Welcome! As the President and Founder of SHAPE, I'm delighted to have you here. We're a student
       organization dedicated to helping CS students expand their knowledge and gain new experiences in tech through
       hands-on projects. Join us in this exciting journey of growth and exploration. Together, we can make a lasting
@@ -188,6 +223,11 @@ a:visited {
     <p class="ptextcontent">President &amp; Director of Business Relations</p>
     <br>
     <p class="ptextcontent"><a href="mailto:president.shape.iit@gmail.com">president.shape.iit@gmail.com</a></p>
+ 
+    <br>
+    <br>
+    <br>
+    
   </div>
 
 

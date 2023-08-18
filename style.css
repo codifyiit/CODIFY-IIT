@@ -103,6 +103,7 @@ nav img {
     color: #FFF;
     width: 70%;
     font-size: 110%;
+    line-height: 2;
 }
 #header-button {
     background-color: #9AD4D6;
@@ -161,12 +162,12 @@ nav img {
 }
 .mission-text h1 {
     font-size: 250%;
-    line-height: 0.75;
+    line-height: 1;
 }
 .mission-text p {
     width: 100%;
     font-weight: 500;
-    line-height: 2;
+    line-height: 2.5;
     font-size: 100%;
 }
 
