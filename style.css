@@ -31,7 +31,8 @@ nav {
     justify-content: space-between;
 }
 .logo-header {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
     margin-left: 7%;
 }
 .logo-header h1 {
