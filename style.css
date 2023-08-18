@@ -176,10 +176,11 @@ nav img {
     position: relative;
     width: 325px;
     height: 500px;
-    margin-left: 128px;
+    margin-left: 110px;
     margin-top: 5%;
     box-shadow: -20px 20px;
 }
+
 .slider {
     display: flex;
     overflow-x: hidden;
@@ -227,6 +228,10 @@ nav img {
 @media(max-width: 600px) {
     footer{
         height: 400px;
+    }
+    .slider-wrapper{
+        margin-left: 50px;
+        margin-top: 50px;
     }
 }
 .spacer{
