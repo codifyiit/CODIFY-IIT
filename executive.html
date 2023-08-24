@@ -15,7 +15,7 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-   
+
     .image-container {
       text-align: center;
       margin: 5%;
@@ -29,7 +29,11 @@
       font-family: "Arial", sans-serif;
       font-size: 170%;
     }
-
+    @media (max-width: 600px) {
+      .gridName {
+        font-size: 120%;
+      }
+    }
     .gridINFO {
       text-align: left;
       margin: 0;
@@ -118,7 +122,7 @@
 
 
  /* President TEXT Section on phone */
- @media (max-width: 600px) {
+ @media (max-width: 1000px) {
   .ptextcontent {
       text-align: left;
       margin: 0%;
@@ -130,20 +134,44 @@
       font-weight: 560;
       line-height: 1.8;
     }
+  }
 
+    @media (max-width: 800px) {
+    #header{
+      background-image: url(assets/images/mobile-exec-bg.png);
+      background-size: cover;
+      outline-style: dashed;
+      min-height: 300px;
+    }
+    h1{
+      color: white;
+    }
+  }
+  @media (max-width: 800px) {
+      .header-text{
+        transform: translateY(-20%);
+      }
     }
   
-    /* Fixed Footer Icon Image */
     .footer-icons img {
-    width: 55px;
-    height: 40px;
-    padding-right: 20px;
-}
+      width: 55px;
+      height: 40px;
+      padding-right: 20px;
+    }
+    /* Header page */
+    .header{
+        background-image: url(assets/images/exec-bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: fit-content;
+    }
     /* Header Text */
     .header-text{
+      width: 30%;
       line-height: 1;
-      margin-left: 20%;    
-      transform: translateY(80%); 
+      margin-left: 20%;
+      margin-top: 12.5%;
       font-size: 400%;
     }
 
@@ -172,7 +200,7 @@ a:visited {
 </head>
 
 <body>
-  <section class="header">
+  <section class="header" id="header">
     <!-- Navigation -->
     <nav>
         <div class="logo-header">
